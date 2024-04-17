@@ -1,0 +1,3 @@
+For classifying the images I used a rule-based approach where color-based segmentation is applied to identify areas of green(lush), brown(growing), and white(no_crop) in the images.After annotating the images with their respective labels, they are split into training and testing sets, which are used to train and evaluate the CNN model, respectively.
+
+The CNN model utilizes convolutional and max-pooling layers for feature extraction and dimensionality reduction, followed by fully connected layers for classification with ReLU activation functions. This approach combines rule-based image classification with deep learning techniques, trained with the Adam optimizer and evaluated using accuracy metrics and a confusion matrix to assess performance.
